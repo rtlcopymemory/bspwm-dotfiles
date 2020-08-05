@@ -65,3 +65,6 @@ bspc rule -a discord desktop='^4'
 bspc rule -a KeePassXC desktop='^5' state=floating
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
+
+### Fix for Java applications... ###
+wmname LG3D

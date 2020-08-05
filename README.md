@@ -12,10 +12,20 @@
 * i3lock
 * font-awesome-ttf
 * flameshot
+* wmname
 
 ### Instructions on Solus
 ```
 sudo eopkg install bspwm picom nitrogen polybar xbacklight mpd xkeyboard-config i3lock font-awesome-ttf flameshot
+```
+
+We also have to install wmname to fix Java applications:
+```
+sudo eopkg install libx11-devel
+git clone https://git.suckless.org/wmname
+cd wmname
+sudo make clean install
+rm -rf wmname 
 ```
 
 You can either copy the files or link them:
