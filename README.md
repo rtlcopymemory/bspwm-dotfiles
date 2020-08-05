@@ -39,10 +39,9 @@ ln -s $PWD/config/sxhkd ~/.config/
 ln -s $PWD/vim/.vimrc ~/
 ```
 
-Powerline (vim):
+Vundle installation:
 ```
-pip3 install --user powerline-status
-pip3 install --user git+git://github.com/powerline/powerline
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 ### Getting touchpad to work properly
