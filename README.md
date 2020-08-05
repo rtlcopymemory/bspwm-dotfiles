@@ -13,6 +13,7 @@
 * font-awesome-ttf
 * flameshot
 * wmname
+* Vundle (vim)
 
 ### Instructions on Solus
 ```
@@ -35,7 +36,13 @@ ln -s $PWD/config/alacritty ~/.config/
 ln -s $PWD/config/polybar ~/.config/
 ln -s $PWD/config/rofi ~/.config/
 ln -s $PWD/config/sxhkd ~/.config/
-ln -s $PWD/config/vim/.vimrc ~/
+ln -s $PWD/vim/.vimrc ~/
+```
+
+Powerline (vim):
+```
+pip3 install --user powerline-status
+pip3 install --user git+git://github.com/powerline/powerline
 ```
 
 ### Getting touchpad to work properly
