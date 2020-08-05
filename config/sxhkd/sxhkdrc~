@@ -132,3 +132,6 @@ XF86MonBrightness{Up,Down}
 
 super + XF86Tools
 	i3lock -i ~/.config/bspwm/background.png
+
+# tools
+# flameshot (screens)
