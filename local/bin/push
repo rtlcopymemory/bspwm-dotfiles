@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync sync ~/Keepass google-drive:KeePass
