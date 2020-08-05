@@ -76,7 +76,7 @@ sudo ln -s $PWD/70-synaptics.conf /etc/X11/xorg.conf.d/70-touchpad-settings.conf
 The folder `local` in this repo is the .local folder where I usually save my scripts and add `~/.local/bin` to the `PATH`  
 ```sh
 ln -s $PWD/local/bin ~/.local/
-echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.zshrc
+echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.profile
 ```
 
 ```
