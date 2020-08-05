@@ -128,4 +128,4 @@ XF86AudioMute
 	amixer sset Master toggle
 
 XF86MonBrightness{Up,Down}
-	light {-A,-U} 10
+	light {-A,-U} 10%
