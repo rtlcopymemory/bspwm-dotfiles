@@ -53,3 +53,5 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Firefox desktop='^3'
 bspc rule -a Brave-browser desktop='^3'
 bspc rule -a Alacritty desktop='^2'
+bspc rule -a "Code - OSS" desktop='^1'
+bspc rule -a jetbrains-toolbox desktop='^1' state=floating
