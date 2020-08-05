@@ -14,7 +14,7 @@
 
 ### Instructions on Solus
 ```
-sudo eopkg install bspwm picom nitrogen polybar xbacklight mpd xkeyboard-config
+sudo eopkg install bspwm picom nitrogen polybar xbacklight mpd xkeyboard-config i3lock font-awesome-ttf flameshot
 ```
 
 You can either copy the files or link them:
