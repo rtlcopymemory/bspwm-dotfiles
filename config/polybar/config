@@ -18,14 +18,14 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
-background-alt = #444
+background = #7F81A1C1
+background-alt = #7F5E81AC
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+foreground-alt = #1C1C1C
+primary = #8FBCBB
+secondary = #88C0D0
+alert = #B48EAD
 
 [bar/wolfenbar]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -42,7 +42,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-size = 2
 border-color = #00000000
 
 padding-left = 0
@@ -52,9 +52,6 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
-;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-;font-2 = siji:pixelsize=10;1
-
 font-1 = FontAwesome5Free:style=Solid:size=10;4
 font-2 = FontAwesome5Free:style=Regular:size=10;4
 font-3 = FontAwesome5Brands:style=Regular:size=10;4
@@ -62,7 +59,7 @@ font-3 = FontAwesome5Brands:style=Regular:size=10;4
 modules-left = bspwm
 modules-center = mpd
 ;modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
-modules-right = xbacklight pulseaudio xkeyboard memory cpu wlan battery temperature date powermenu
+modules-right = pulseaudio xkeyboard memory cpu wlan battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
