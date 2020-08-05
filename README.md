@@ -1,4 +1,5 @@
 # bspwm-dotfiles
+![screenshot](screen0.png)
 ### Additional Dependencies
 * sxhkd
 * compton/picom
