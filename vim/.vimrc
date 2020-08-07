@@ -18,6 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Powerline plugin
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'preservim/nerdtree'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -50,3 +51,8 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Plugin settings "
+" Nerd Tree Ctrl + n open
+map <C-n> :NERDTreeToggle<CR>
+
